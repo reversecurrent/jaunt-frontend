@@ -1,0 +1,15 @@
+{
+  "name": "jaunt-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "mono repo for jaunt graphql api server, front end apps",
+  "main": "index.js",
+  "repository": "https://github.com/reversecurrent/jaunt-frontend",
+  "author": "Reverse Current",
+  "license": "MIT",
+  "workspaces":{
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
